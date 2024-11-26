@@ -45,4 +45,8 @@ form.addEventListener('submit', (e) => {
     localStorage.setItem('name', name); // Save the name
     localStorage.setItem('bgcolor', bgColor); // Save the background color
     localStorage.setItem('fgcolor', fgColor); // Save the foreground color
+
+
+    // Apply the saved preferences immediately
+    applyPreferences(); // Call the function to apply preferences
     
