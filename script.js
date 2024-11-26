@@ -15,3 +15,10 @@ const form = document.querySelector('form');
 const nameInput = document.querySelector('#name');
 const bgColorInput = document.querySelector('#bgcolor');
 const fgColorInput = document.querySelector('#fgcolor');
+
+// Function to apply the saved preferences from localStorage
+function applyPreferences() {
+    const name = localStorage.getItem('name'); // Get the stored name
+    const bgColor = localStorage.getItem('bgcolor'); // Get the stored background color
+    const fgColor = localStorage.getItem('fgcolor'); // Get the stored foreground color
+    
