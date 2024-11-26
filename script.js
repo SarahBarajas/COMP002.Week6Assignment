@@ -9,3 +9,9 @@
 // also want to call this function again when the user saves their preferences to
 // immediately apply them. Make sure you also notify the user somehow that the preferences
 // were saved.
+
+// Select the form and input elements from the HTML
+const form = document.querySelector('form');
+const nameInput = document.querySelector('#name');
+const bgColorInput = document.querySelector('#bgcolor');
+const fgColorInput = document.querySelector('#fgcolor');
