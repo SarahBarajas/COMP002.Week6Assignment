@@ -40,4 +40,9 @@ form.addEventListener('submit', (e) => {
     const name = nameInput.value; // Get the current value of the name input
     const bgColor = bgColorInput.value; // Get the current value of the background color input
     const fgColor = fgColorInput.value; // Get the current value of the foreground color input
+
+    // Save the current values in localStorage
+    localStorage.setItem('name', name); // Save the name
+    localStorage.setItem('bgcolor', bgColor); // Save the background color
+    localStorage.setItem('fgcolor', fgColor); // Save the foreground color
     
