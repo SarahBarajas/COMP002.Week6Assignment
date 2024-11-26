@@ -49,4 +49,10 @@ form.addEventListener('submit', (e) => {
 
     // Apply the saved preferences immediately
     applyPreferences(); // Call the function to apply preferences
-    
+
+    // Notify the user that their preferences have been saved
+    alert('Preferences saved!'); // Show a message to the user
+});
+
+// Apply the saved preferences when the page loads
+document.addEventListener('DOMContentLoaded', applyPreferences); // Run the applyPreferences function when the page loads
